@@ -1,0 +1,150 @@
+
+
+@font-face {
+    font-family: gemunulibre;
+    src: url(assets/Gemunu.ttf);
+}
+
+body {
+    background-color: #D8D9CF;
+    margin: 0;
+    font-family: gemunulibre, sans-serif;
+    font-size: 18px;
+}
+p {
+    line-height: 1.3em;
+}
+
+/* Header */
+.head-title {
+    background-color: #FF8787;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: inline;
+}
+.textcd {
+    color: #fffffe;
+    font-size: 1.2em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+h1 {
+    margin-bottom: 0;
+    font-size: 3.5em;
+    text-align: center;
+    flex-basis: 100%;
+    color: #fffffe;
+}
+nav {
+    background-color :#E26868;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+nav > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: #fffffe;
+}
+a:hover {
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+.flex-row {
+    display: flex;
+    place-items: center;
+    gap: 20px;
+    
+}
+.flex-row, section > p {
+    margin: 0 20px
+}
+section > p:nth-child(3){
+    margin: 20px;
+}
+#dunia > .flex-row {
+    flex-direction: row-reverse;
+}
+
+article {
+    padding: 20px;
+}
+.flex-row > div > p, section > p {
+    text-align: justify;
+}
+
+#content > article {
+    border-radius: 10px;
+    background: #EDEDED;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px 3px #8a718b;
+}
+.card {
+    background-color: #E26868;
+    border-radius: 5px;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 1px 1px 4px 3px #FF8787;
+}
+.summit {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    width: 100%;
+}
+.fotowar {
+    width: 90%;
+}
+aside {
+    color: #fffffe;
+}
+
+/* footer */
+footer {
+    background-color: #E26868;
+    color: #fffffe;
+    text-align: center;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 -1px 4px 2px #8a718b;
+}
+footer > p {
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+    article.profile {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+}
+@media (max-width: 550px) {
+    .flex-row, #dunia>.flex-row {
+        flex-direction: column;
+    }
+
+}
