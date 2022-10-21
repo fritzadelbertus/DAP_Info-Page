@@ -21,8 +21,8 @@ This is a submission to the 'Belajar Dasar Pemrograman Web' Final Project. Dicod
 
 ### Links
 
-- Submission URL: [Github Repo](https://github.com/fritzadelbertus/DAP_Bookshelf-App)
-- Live Site URL: [Github Pages](https://fritzadelbertus.github.io/DAP_Bookshelf-App/)
+- Submission URL: [Github Repo](https://github.com/fritzadelbertus/DAP_Info_Page)
+- Live Site URL: [Github Pages](https://fritzadelbertus.github.io/DAP_Info_Page/)
 
 ## My process
 
